@@ -109,9 +109,5 @@ For questions, reach out via GitHub issues or fork and build on it!
 
 ## Author
 **Meet Jain**
-[meetjain538@gmail.com]
-github.com/userofmeet
-
-```
-“Automating what should’ve never been manual in the first place.”
-```
+- [meetjain538@gmail.com]
+- github.com/userofmeet
