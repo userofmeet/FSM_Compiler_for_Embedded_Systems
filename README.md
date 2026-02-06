@@ -1,21 +1,21 @@
-# FSM Compiler for Embedded Systems 🚀
+# FSM Compiler for Embedded Systems 
 
 This project is a Python-based compiler that transforms user-defined **Finite State Machine (FSM)** descriptions into modular, production-ready **C code** tailored for **embedded systems** like **STM32**, **ESP32**, and **Arduino**, all running **FreeRTOS**.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔁 Support for **multiple FSMs** in a single description file.
-- ⚡ Auto-generation of `.c` files for each FSM.
-- 🎯 Centralized `rtos_main.c` to manage all FSMs as FreeRTOS tasks.
-- 📦 Modular code structure for scalability and maintainability.
-- 🧠 Optimization: Detects and minimizes equivalent or redundant states.
-- 🛠️ Plug-and-play design—write FSMs in plain text and generate working code instantly.
+- Support for **multiple FSMs** in a single description file.
+- Auto-generation of `.c` files for each FSM.
+- Centralized `rtos_main.c` to manage all FSMs as FreeRTOS tasks.
+- Modular code structure for scalability and maintainability.
+- Optimization: Detects and minimizes equivalent or redundant states.
+- Plug-and-play design—write FSMs in plain text and generate working code instantly.
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 - **Python** – for the FSM compiler and optimization engine.
 - **Embedded C** – for the generated output code.
@@ -24,7 +24,7 @@ This project is a Python-based compiler that transforms user-defined **Finite St
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 ```
 fsm-compiler/
 │
@@ -46,18 +46,18 @@ fsm-compiler/
 ```
 
 
-## ⚡ Features
+## Features
 
-- ✅ Converts multiple FSMs into individual `.c` files
-- 🧠 FSM optimization: detects and removes equivalent states
-- 🔀 Generates a central `rtos_main.c` to manage tasks via FreeRTOS
-- 🛠️ Supports STM32, ESP32, Arduino (via PlatformIO, Keil, or GCC)
-- 📄 Human-readable FSM definition format
-- 🎯 Plug-and-play compiler (no GUI, simple CLI-based tool)
+- Converts multiple FSMs into individual `.c` files
+- FSM optimization: detects and removes equivalent states
+- Generates a central `rtos_main.c` to manage tasks via FreeRTOS
+- Supports STM32, ESP32, Arduino (via PlatformIO, Keil, or GCC)
+- Human-readable FSM definition format
+- Plug-and-play compiler (no GUI, simple CLI-based tool)
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. **Prepare FSM input**:
    - Write your FSMs in the file `input/drone_system.fsm`.
@@ -78,7 +78,7 @@ fsm-compiler/
       - Arduino IDE (if compatible)
       - Any FreeRTOS-enabled toolchain
 
-## 📚 Example FSMs Included
+## Example FSMs Included
 
 FSMs in the sample input: 
     - Navigation
@@ -91,26 +91,26 @@ FSMs in the sample input:
 These FSMs model different drone subsystems and demonstrate how complex behavior can be modularized.
 
 
-## 🧪 Applications
+## Applications
    - Drones & UAVs
    - Robotics systems
    - Industrial automation
    - Embedded AI control loops
    - Event-driven IoT devices 
 
-## 📜 License
+## License
 MIT License
 
-## 🤝 Contribute
+## Contribute
 Pull requests and feedback are welcome! To suggest improvements or new features, open an issue.
 
-## 📫 Contact
+## Contact
 For questions, reach out via GitHub issues or fork and build on it!
 
-## 👤 Author
+## Author
 **Meet Jain**
-📧 [meetjain538@gmail.com]
-🔗 github.com/userofmeet
+[meetjain538@gmail.com]
+github.com/userofmeet
 
 ```
 “Automating what should’ve never been manual in the first place.”
