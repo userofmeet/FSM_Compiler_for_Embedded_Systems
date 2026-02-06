@@ -25,7 +25,7 @@ This project is a Python-based compiler that transforms user-defined **Finite St
 ---
 
 ## Folder Structure
-```.md
+```bash
 fsm-compiler/
 │
 ├── input # input fsm files
